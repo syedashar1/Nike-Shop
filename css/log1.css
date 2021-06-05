@@ -1,0 +1,99 @@
+
+
+.boxx{
+
+  width: 750px;
+  min-height: 300px;
+  min-width: 300px;
+  background: #1a1a19;
+  text-align: center;
+  margin-bottom: 100px;
+  -webkit-box-shadow: 10px 10px 30px 6px rgba(0,0,0,0.5);
+ -moz-box-shadow: 10px 10px 30px 6px rgba(0,0,0,0.5);
+ box-shadow: 10px 10px 30px 6px rgba(0,0,0,0.5);
+	
+}
+
+.slider{
+      background: grey;
+
+}
+.carousel-item {
+      height: 400px;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modalbox {
+  display: none; /* Hidden by default */
+  position: fixed;; /* Stay in place */
+  z-index: 11111; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalcontent {
+  max-width: 750px;
+  position: relative;
+  /* background-color: #fefefe; */
+  margin: auto;
+  padding: 0;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.5s;
+  animation-name: animatetop;
+  animation-duration: 1s
+}
+
+/* Add Animation */
+/* @-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+} */
+
+@keyframes animatetop {
+      0%{
+            top:-400px; opacity:0
+      }
+      75%{
+            top:50px;
+      }
+      100%{
+            top:0; opacity:1
+      }
+  /* from {top:-300px; opacity:0}
+  to {top:0; opacity:1} */
+}
+
+/* The Close Button */
+.close1 , .close2 , .close3 ,.close4 , .close5 , .close6  {
+      position: absolute;
+      right: 70px;
+      top: 40px;
+  float: right;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.close1 , .close2 , .close3 ,.close4 , .close5 , .close6:hover,
+.close1 , .close2 , .close3 ,.close4 , .close5 , .close6:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+body{ overflow-x: hidden;}
+.svgabouts{
+      background: #1a1a19;
+      position: relative;
+      margin-top: 390px;
+      margin-bottom: 300px;
+      -webkit-box-shadow: 0px 0px 30px 6px rgba(0,0,0,0.5);
+      -moz-box-shadow: 0px 0px 30px 6px rgba(0,0,0,0.5);
+      box-shadow: 0px 0px 30px 6px rgba(0,0,0,0.5);
+}
+.svgabouts p {color: lightgrey;}
+
+.svgfile{
+      height: 700px;
+      transition: 0.7s;
+      margin-top: -390px;
+      bottom: 0;
+
+}
+
+@media only screen and (max-width: 992px) {
+      .svgfile{ margin : 0px;width: 100%;height: auto;max-width: 400px}
+      .svgabouts{ overflow: hidden;
+                  margin-top: 30px;
+                  margin-bottom: 30px;
+
+
+      }
+}

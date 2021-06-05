@@ -1,0 +1,52 @@
+.outer{padding: 60px;
+      padding-top: 180px;
+      padding-bottom: 180px;
+      background: grey;
+}
+.inner{
+      overflow: hidden;
+}
+
+ /* REMOVE THE overflow TO MAKE THE img NORMAL INCREASE IN SIZE */
+
+
+.imggg{
+   
+
+      transition: .2s;
+
+}
+.imggg:hover{
+      -ms-transform: scale(1.2);
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+
+
+
+
+
+.imggg2{
+      height: 550px;
+      background-image: url(ronaldo.jpg);
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .2s;
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+
+}
+.imggg2:hover{
+      -ms-transform: scale(1);
+-moz-transform: scale(1);
+-webkit-transform: scale(1);
+-o-transform: scale(1);
+transform: scale(1);
+}

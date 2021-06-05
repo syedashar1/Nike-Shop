@@ -1,0 +1,21 @@
+.hero{
+      height: 100vh;
+      background-color: black;
+      position: relative;
+      -webkit-box-shadow: 0px 5px 25px 10px rgba(0,0,0,0.6);
+      -moz-box-shadow: 0px 5px 25px 10px rgba(0,0,0,0.6);
+      box-shadow: 0px 5px 25px 10px rgba(0,0,0,0.6);
+}
+
+.wave{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+}
+
+.w1 {
+      z-index: 1000;
+      opacity: 1;
+      animation-delay: 0s;
+      bottom: 0px;
+}

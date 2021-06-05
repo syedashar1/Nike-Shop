@@ -1,0 +1,61 @@
+.hero{
+      background-image: url(images/messi.jpg);
+      background-attachment: fixed;
+      animation: animate 20s ease-in-out infinite;
+
+}
+
+.aboutathletes{
+      /* height: 230px; */
+      background: rgba(0,0,0,0.2);
+      background-image: url(bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      -webkit-box-shadow: 0px 5px 25px 10px rgba(0,0,0,0.6);
+      -moz-box-shadow: 0px 5px 25px 10px rgba(0,0,0,0.6);
+      box-shadow: 0px 5px 25px 10px rgba(0,0,0,0.6);
+}
+
+
+
+.upperofathelets{
+      height: 140px;
+      transition: .2s;
+}
+
+
+.svgabouts .btn-sm {
+      color: lightgrey;
+      font-size: 22px;
+      background: transparent;
+      border: 2px solid lightgrey;
+      border-radius: 15px;
+}
+
+
+
+
+
+@keyframes animate{
+
+      0% , 100%{
+
+            background-image: url(images/messi.jpg);
+      }
+
+
+      50%{
+
+            background-image: url(images/messi2.jpg);
+      }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+      .upperofathelets{ height: 50px;}
+}
